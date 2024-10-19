@@ -1,0 +1,217 @@
+// this is the single flight details after searching for a flight 
+
+
+request : 
+
+{
+    "searchQuery": {
+      "cabinClass": "ECONOMY",
+      "paxInfo": {
+        "ADULT": "1",
+        "CHILD": "0",
+        "INFANT": "0"
+      },
+      "routeInfos": [
+        {
+          "fromCityOrAirport": {
+            "code": "DED"
+          },
+          "toCityOrAirport": {
+            "code": "BLR"
+          },
+          "travelDate": "2024-10-15"
+          
+        }
+      ],
+      "searchModifiers": {
+        "isDirectFlight": true,
+        "isConnectingFlight": false
+      }
+    }
+  }
+
+
+
+  Response : > single object 
+
+{
+  "sI": [
+    {
+      "id": "430",
+      "fD": {
+        "aI": {
+          "code": "UK",
+          "name": "Vistara",
+          "isLcc": false
+        },
+        "fN": "616",
+        "eT": "320"
+      },
+      "stops": 0,
+      "so": [],
+      "duration": 190,
+      "da": {
+        "code": "DED",
+        "name": "Jolly Grant Airport",
+        "cityCode": "DED",
+        "city": "Dehra Dun",
+        "country": "India",
+        "countryCode": "IN"
+      },
+      "aa": {
+        "code": "BLR",
+        "name": "Bengaluru Intl Arpt",
+        "cityCode": "BLR",
+        "city": "Bengaluru",
+        "country": "India",
+        "countryCode": "IN",
+        "terminal": "Terminal 2"
+      },
+      "dt": "2024-10-15T15:40",
+      "at": "2024-10-15T18:50",
+      "iand": false,
+      "isRs": false,
+      "sN": 0
+    }
+  ],
+  "totalPriceList": [
+    {
+      "fd": {
+        "ADULT": {
+          "fC": {
+            "BF": 8564.0,
+            "TF": 10150.0,
+            "TAF": 1586.0,
+            "NF": 10150.0
+          },
+          "afC": {
+            "TAF": {
+              "YR": 80.0,
+              "AGST": 433.0,
+              "OT": 1073.0
+            }
+          },
+          "sR": 9,
+          "bI": {
+            "iB": "1 Unit(s)",
+            "cB": "7 Kg"
+          },
+          "rT": 1,
+          "cc": "ECONOMY",
+          "cB": "O",
+          "fB": "O0RPRYL",
+          "mI": true
+        }
+      },
+      "fareIdentifier": "PUBLISHED",
+      "id": "15-2-10-2930389621_0DEDBLRUK616~14692952465189924",
+      "msri": [],
+      "messages": [],
+      "tai": {
+        "tbi": {
+          "430": [
+            {
+              "ADULT": {
+                "iB": "1 Unit(s)",
+                "cB": "7 Kg"
+              }
+            }
+          ]
+        }
+      },
+      "icca": false
+    },
+    {
+      "fd": {
+        "ADULT": {
+          "fC": {
+            "BF": 9564.0,
+            "TF": 11200.0,
+            "OB": 300.0,
+            "TAF": 1636.0,
+            "NF": 11200.0
+          },
+          "afC": {
+            "TAF": {
+              "AGST": 483.0,
+              "OT": 1153.0
+            }
+          },
+          "sR": 9,
+          "bI": {
+            "iB": "15 kg",
+            "cB": "7 Kg"
+          },
+          "rT": 1,
+          "cc": "ECONOMY",
+          "cB": "V",
+          "fB": "V0RPRYS/YS",
+          "mI": true
+        }
+      },
+      "fareIdentifier": "ECO STANDARD",
+      "id": "15-2-10-2930389621_0DEDBLRUK616~14692952465191089",
+      "msri": [],
+      "messages": [],
+      "tai": {
+        "tbi": {
+          "430": [
+            {
+              "ADULT": {
+                "iB": "15 kg",
+                "cB": "7 Kg"
+              }
+            }
+          ]
+        }
+      },
+      "icca": false
+    },
+    {
+      "fd": {
+        "ADULT": {
+          "fC": {
+            "BF": 10515.0,
+            "TF": 12198.0,
+            "OB": 300.0,
+            "TAF": 1683.0,
+            "NF": 12198.0
+          },
+          "afC": {
+            "TAF": {
+              "AGST": 530.0,
+              "OT": 1153.0
+            }
+          },
+          "sR": 9,
+          "bI": {
+            "iB": "20 kg",
+            "cB": "7 Kg"
+          },
+          "rT": 1,
+          "cc": "ECONOMY",
+          "cB": "V",
+          "fB": "V0RPRYF/YF",
+          "mI": true
+        }
+      },
+      "fareIdentifier": "ECO FLEXI",
+      "id": "15-2-10-2930389621_0DEDBLRUK616~14692952465191811",
+      "msri": [],
+      "messages": [],
+      "tai": {
+        "tbi": {
+          "430": [
+            {
+              "ADULT": {
+                "iB": "20 kg",
+                "cB": "7 Kg"
+              }
+            }
+          ]
+        }
+      },
+      "icca": false
+    }
+  ]
+}
