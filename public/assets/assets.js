@@ -1,19 +1,39 @@
 import logo from './logo.png'
+import emp from './emp.jpg'
+import your from './your.jpg'
+import mind from './mind.jpg'
+import campus from './apartment.jpg'
+import school from './school.jpg'
+import minds from './cognition.jpg'
+import gillette from './Gillette-Logo 1.jpg'
+import orchid from './orchid.jpg'
+import gold from './gold.jpg'
+import nature from './nature.jpg'
+import niit from './niit.jpg'
+import social from './social.jpg'
+import brand from './brand.png'
+import mind2 from './mind.png'
+import smallMind from './smallMind.jpg'
+import gost from './gost.png'
+import leftW from './leftW.png'
+import pop from './pop.png'
+import rightW from './rightW.png'
+
 
 
 const questionsData = [
-  { id: 1, question: 'Question 1', description: "In data science, which algorithm is primarily used for classification tasks by finding the hyperplane that best separates different classes in a dataset?", options: ['K-Nearest Neighbors', 'Support Vector Machine', 'Linear Regression', 'Decision Tree'],ans:'Decision Tree' },
+  { id: 1, question: 'Question 1', description: "In data science, which algorithm is primarily used for classification tasks by finding the hyperplane that best separates different classes in a dataset?", options: ['K-Nearest Neighbors', 'Support Vector Machine', 'Linear Regression', 'Decision Tree'], ans: 'Decision Tree' },
 
-  { id: 2, question: 'Question 2', description: "Which of the following is a JavaScript framework?", options: ['Django', 'Flask', 'React', 'Laravel'],ans:'React' },
+  { id: 2, question: 'Question 2', description: "Which of the following is a JavaScript framework?", options: ['Django', 'Flask', 'React', 'Laravel'], ans: 'React' },
 
 
-  { id: 3, question: 'Question 3', description: "Which data structure follows the Last In First Out (LIFO) principle?", options: ['Queue','Array','Stack','Linked List'],ans:'Stack' },
+  { id: 3, question: 'Question 3', description: "Which data structure follows the Last In First Out (LIFO) principle?", options: ['Queue', 'Array', 'Stack', 'Linked List'], ans: 'Stack' },
 
-  { id: 4, question: 'Question 4', description: "Which HTTP method is used to update data on a server?", options: ['GET','DELETE','PUT','PATCH'] ,ans:'PUT'},
+  { id: 4, question: 'Question 4', description: "Which HTTP method is used to update data on a server?", options: ['GET', 'DELETE', 'PUT', 'PATCH'], ans: 'PUT' },
 
-  { id: 5, question: 'Question 5', description: "What is the capital of France?", options: ['Berlin','Madrid','Rome','Paris'],ans:'Paris' },
+  { id: 5, question: 'Question 5', description: "What is the capital of France?", options: ['Berlin', 'Madrid', 'Rome', 'Paris'], ans: 'Paris' },
 
-  { id: 6, question: 'Question 6', description: "Which programming language is primarily used for iOS app development?", options: ['Swift','Python','Ruby','PHP'],ans:'Swift' },
+  { id: 6, question: 'Question 6', description: "Which programming language is primarily used for iOS app development?", options: ['Swift', 'Python', 'Ruby', 'PHP'], ans: 'Swift' },
 
   { id: 7, question: 'Question 7', description: "In data science, which algorithm is primarily used for classification tasks by finding the hyperplane that best separates different classes in a dataset?", options: ['K-Nearest Neighbors', 'Support Vector Machine', 'Linear Regression', 'Decision Tree'] },
 
@@ -60,5 +80,5 @@ const questionsData = [
 
 
 export const assets = {
-  logo,questionsData
+  logo, questionsData, emp, your, mind,campus,school,minds,gillette,orchid,gold,nature,niit,social,brand,mind2,smallMind,gost ,leftW,pop,rightW
 }

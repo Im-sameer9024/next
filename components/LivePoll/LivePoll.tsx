@@ -63,7 +63,7 @@ const LivePoll = () => {
 
 
   return (
-    <div className=' w-[100vw] h-screen'>
+    <div className=' w-[100vw] h-auto md:h-screen'>
       <div className=' w-11/12 mx-auto'>
 
         {/*---------------- Top Section -------------- */}
@@ -109,11 +109,11 @@ const LivePoll = () => {
         </div>
 
         {/*----------- Question details and attempt section ------------ */}
-        <div className=' w-full h-[400px] flex justify-between gap-4'>
+        <div className=' w-full md:h-[400px] flex justify-between gap-4 flex-col md:flex-row'>
 
 
           {/*----------------- Questions number Left Section  --------------------- */}
-          <div className=' w-3/12 text-[#929292] overflow-y-scroll h-[100%] flex flex-col gap-1 '>
+          <div className=' w-full md:w-3/12 text-[#929292] overflow-y-scroll h-[50px] md:h-full flex flex-col gap-1 '>
 
             {
               assets.questionsData.map((item, index: number) => {
@@ -140,7 +140,7 @@ const LivePoll = () => {
 
           {/*----------------- Question Details Right section ------------------ */}
 
-          <div className=' w-9/12 border border-orange-500 flex flex-col justify-between p-8 rounded-3xl h-[100%]'>
+          <div className=' md:w-9/12 w-full md:h-full border border-orange-500 flex flex-col justify-between p-8 rounded-3xl h-[400px]'>
 
             {/* Question Details  */}
 

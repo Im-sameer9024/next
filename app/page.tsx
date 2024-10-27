@@ -1,10 +1,12 @@
-import LivePoll from "@/components/LivePoll/LivePoll";
+import LandingPage from "@/components/LandingPage/LandingPage";
+// import Signup from "@/components/Login/SignUp/Signup";
 
 
 export default function Home() {
   return (
     <div>
-      <LivePoll/>
+      <LandingPage/>
+      {/* <Signup/> */}
     </div>
   );
 }
