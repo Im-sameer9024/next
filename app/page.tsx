@@ -2,7 +2,9 @@
 // import Signup from "@/components/Login/SignUp/Signup";
 
 // import Card from "@/components/Internship/Card";
-import Internship from "@/components/Internship/Internship";
+
+// import EventLanding from "@/components/AllEvents/EventLanding";
+// import Internship from "@/components/Internship/Internship";
 import Profile from "@/components/Profile/Profile";
 
 // import LivePoll from "@/components/LivePoll/LivePoll";
@@ -20,6 +22,7 @@ export default function Home() {
       {/* <Internship/> */}
       {/* <Card/> */}
       <Profile />
+      {/* <EventLanding/> */}
     </div>
   );
 }
