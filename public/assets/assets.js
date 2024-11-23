@@ -25,6 +25,9 @@ import notion from './notion.png'
 import american from './american.png'
 import user from './user.jpeg'
 import rocket from './rocket.png'
+import college from './college.jpeg'
+import clg from './clg.jpeg'
+import cam from './campus.jpeg'
 const questionsData = [
   { id: 1, question: 'Question 1', description: "In data science, which algorithm is primarily used for classification tasks by finding the hyperplane that best separates different classes in a dataset?", options: ['K-Nearest Neighbors', 'Support Vector Machine', 'Linear Regression', 'Decision Tree'], ans: 'Decision Tree' },
 
@@ -84,5 +87,5 @@ const questionsData = [
 
 
 export const assets = {
-  logo, questionsData, emp, your, mind,campus,school,minds,gillette,orchid,gold,nature,niit,social,brand,mind2,smallMind,gost ,leftW,pop,rightW,students,bg,notion,dominos,american,user,rocket
+  logo, questionsData, emp, your, mind,campus,school,minds,gillette,orchid,gold,nature,niit,social,brand,mind2,smallMind,gost ,leftW,pop,rightW,students,bg,notion,dominos,american,user,rocket,college,clg,cam
 }

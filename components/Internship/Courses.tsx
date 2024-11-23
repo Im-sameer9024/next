@@ -174,7 +174,6 @@ const Courses = ({ cardData, dispatch }: cardDataProps) => {
 
 
         </div>
-
         {/* Cards section  */}
 
         <div className=' w-[76%]'>
