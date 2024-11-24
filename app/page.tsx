@@ -23,8 +23,8 @@ export default function Home() {
       {/* <LivePoll/> */}
       {/* <Signup/> */}
       {/* <Quiz/> */}
-      <CollegeDetils/>
-      {/* <CollegeList/> */}
+      {/* <CollegeDetils/> */}
+      <CollegeList />
       {/* <List /> */}
       {/* <Internship/> */}
       {/* <Card/> */}

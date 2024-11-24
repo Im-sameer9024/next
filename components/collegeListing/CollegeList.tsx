@@ -5,7 +5,7 @@ import { assets } from '@/public/assets/assets'
 const CollegeList = () => {
 
   const data = [
-    { id: 1, image: assets.college, name: "Thapar University", place: 'Patiala, Punjab', rating: 4.1, review: 234, minPrice: 3.5, maxPrice: 5, exam: 4 },
+    { id: 1, image: assets.college, name: "Thapar University and SRM University", place: 'Patiala, Punjab', rating: 4.1, review: 234, minPrice: 3.5, maxPrice: 5, exam: 4 },
 
     { id: 2, image: assets.college, name: "Thapar University", place: 'Chennai, Tamil Nadu', rating: 3.5, review: 434, minPrice: 3.5, maxPrice: 5, exam: 4 },
 
